@@ -3,7 +3,7 @@
    Plugin Name: Reanimate On Scroll
    Version: 1.0.0
    Author: Jack Biles
-   Description: Simple and easy to use plugin which allows reanimation on eahc time the element is scrolled past (up or down)
+   Description: Simple and easy to use plugin which allows reanimation on each time the element is scrolled past (up or down)
    License: GPLv3
 */
 

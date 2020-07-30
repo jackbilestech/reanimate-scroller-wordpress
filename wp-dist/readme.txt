@@ -1,6 +1,16 @@
-# Reanimate Scroller WordPress
+=== Plugin Name ===
+Contributors: (this should be a list of wordpress.org userid's)
+Tags: animation, scroll, interface, experience
+Requires at least: 4.7
+Tested up to: 5.4
+Stable tag: 4.3
+Requires PHP: 7.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Simple and easy to use plugin which allows reanimation on each time the element is scrolled past (up or down)
+
+== Description ==
 
 ## What Problem Does It Solve
 
@@ -27,13 +37,14 @@ This script contiously monitors the top of the screen and the viewport height (b
 
 Basically, use your animation as normal, just apply the additonal class names into the `class` and it will work fine.
 
-## How To Test In Wordpress
+== Frequently Asked Questions ==
 
-- Navigate to the `test/wp` diretory in this repo.
-- Start your `phpMyAdmin` service.
-- Create a new databse called `dev`.
-  - Alternatively, [change](https://wordpress.org/support/article/editing-wp-config-php/) the `wp-config.php` to match your databse needs.
-- In the browser, navigate to `localhost/<this-repo-name>/test/wp`
-- Finish WordPres installing
-- Install & Activate [Animate.it](https://animate.style/)
-- Activate `Reanimate On Scroll`
+== Screenshots ==
+
+1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is stored in the /assets directory.
+2. This is the second screen shot
+
+== Changelog ==
+
+= 1.0.0 =
+* Initial Release
