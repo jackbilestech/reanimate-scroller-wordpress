@@ -2,25 +2,28 @@
   "name": "reanimate-scroller-wordpress",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rimraf ./dist/**/* && tsc"
+    "build": "rimraf ./dist/**/* && tsc && rimraf ./wp-dist/**/* && node copy ",
+    "wp-test": "rimraf ./test/wp/wp-content/plugins/reanimate-scroller-wordpress/**/* && ncp ./wp-dist ./test/wp/wp-content/plugins/reanimate-scroller-wordpress"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "animate.css": "^4.1.0",
-    "jquery": "^3.5.1",
-    "typescript": "^3.9.7"
+    "animate.css": "^4.1.0"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.1",
+    "jquery": "^3.5.1",
+    "ncp": "^2.0.0",
     "nodemon": "^2.0.4",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.7",
+    "zip-folder": "^1.0.0"
   }
 }

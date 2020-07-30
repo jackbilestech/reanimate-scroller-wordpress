@@ -29,4 +29,4 @@ function check_required_plugins() {
 add_action( 'plugins_loaded', 'check_required_plugins' );
 
 wp_enqueue_script('jquery'); // Load jQuery
-wp_enqueue_script( 'reanimate-scroller-wordpress-javascript', plugins_url( '/dist/index.js', __FILE__ ), array() ); //Load JS file
+wp_enqueue_script( 'reanimate-scroller-wordpress-javascript', plugins_url( '/libs/index.js', __FILE__ ), array() ); //Load JS file
