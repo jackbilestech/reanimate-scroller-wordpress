@@ -26,7 +26,7 @@ jQuery(document).ready( ($) => {
             $(elmClass).stop(true,false)
                 var st = $(this).scrollTop();
                 var sb = st + $(window).height();
-                console.log(sb);
+
                 var topDistance = (top + h) - st;
                 var bottomDistance = sb - (top);
                 
